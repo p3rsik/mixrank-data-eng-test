@@ -1,0 +1,12 @@
+[package]
+name = "mixrank-test-da"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+csv = "1.4.0"
+futures = "0.3.32"
+reqwest = {version="0.13.2"}
+scraper = "0.25.0"
+tokio = {version = "1.50.0", features = ["full"] }
+url = "2.5.8"
